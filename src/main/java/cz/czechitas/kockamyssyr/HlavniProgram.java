@@ -169,6 +169,7 @@ public class HlavniProgram {
         tom.moveForward();
         tom.turnLeft();
     }
+    //endregion
 
     //region Společné metody pro různé varianty
     private void otocSeVpravo() {
@@ -236,7 +237,7 @@ public class HlavniProgram {
     }
     //endregion
 
-
+    //region Metody pro vytvoření herní plochy
     public void vytvorVeci(int pocetStromu) {
         for (int i = 0; i < pocetStromu; i++) {
             vytvorStrom();
@@ -268,5 +269,5 @@ public class HlavniProgram {
     private Point vytvorNahodnyBod() {
         return new Point(random.nextInt(SIRKA_OKNA), random.nextInt(VYSKA_OKNA));
     }
-
+    //endregion
 }
