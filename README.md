@@ -16,7 +16,7 @@ Naprogramujte chování kočky tak, aby chytila myš.
 U myši budete potřebovat znát její aktuální polohu – tu získáte pomocí metod `getX()` a `getY()`.
 
 U kočky budete potřebovat znát její aktuální polohu (stejně jako u myši), dále metody `turnLeft()`, `turnRight()`, `moveForward()`.
-Metoda `moveForward()` má dvě varianty – můžeš zadat, jak daleko má kočka jít, nebo (bez parametru) s eposune jen o kousek.
+Metoda `moveForward()` má dvě varianty – můžeš zadat, jak daleko má kočka jít, nebo (bez parametru) se posune jen o kousek.
 Zda se kočka může posunout dopředu zjistíte voláním metody `isPossibleToMoveForward()`.
 Pro zjištění směru, kterým se kočka dívá, použijete metodu `getOrientation()`, například následujícím způsobem:
 
