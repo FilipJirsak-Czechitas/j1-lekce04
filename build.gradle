@@ -10,19 +10,12 @@ java {
 
 repositories {
     mavenCentral()
-    maven {
-        url "https://mvnrepo.czechitas.dev/maven2/"
-    }
 }
 
 dependencies {
-    implementation("dev.czechitas.java1:kockamyssyr-engine:1.0.0")
+    implementation("dev.czechitas.java1:kockamyssyr-engine:1.1.5")
 }
 
 application {
     mainClass = "cz.czechitas.kockamyssyr.HlavniProgram"
-}
-
-tasks.withType(JavaCompile) {
-    options.encoding = "UTF-8"
 }
